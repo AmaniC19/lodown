@@ -1,0 +1,32 @@
+{
+  "name": "amani-library-code",
+  "version": "1.0.0",
+  "description": "my own programmed javascript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaniC19/lodown.git"
+  },
+  "keywords": [
+    "TSM"
+  ],
+  "author": "Amani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmaniC19/lodown/issues"
+  },
+  "homepage": "https://github.com/AmaniC19/lodown#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0",
+    "sinon": "^2.2.0"
+  }
+}
